@@ -1,25 +1,34 @@
-span {
-    padding-right: 0.5em;
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
 }
-.login-box, .create-account-box {
-    width: 25%;
-    border: 1px solid;
-    padding: 1em;
-    font-size: 14px;
+.my-account {
+    display: flex;
+    justify-content: space-around;
 }
 .create-account-box {
     text-align: left;
+ }
+.create-account-box__text > span {
+    padding-right: 0.5em;
+}
+.login-box, .create-account-box {
+    border: 1px solid;
+    font-size: 14px;
+    padding: 1em;
+    width: 25%;
 }
 .login-box__input-bar {
-    width: 96%;
+    font-style: italic;
     margin-top: 1em;
     padding-left: 0.5em;
-    font-style: italic;
+    width: 96%;
 }
 .login-box__button, .create-account-box__button .login-box__password-link  {
+    cursor: pointer;
     margin: 3em 0em 2em;
     width: 100%;
-    cursor: pointer;
 }
 .error {
     color: red;

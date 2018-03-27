@@ -16,12 +16,10 @@ class LoginAccount extends Component {
 
     checkEmailInput(event) {
         this.setState({ email: event.target.value });
-        this.setState({ error: '' });
     }
 
     checkPasswordInput(event) {
         this.setState({ password: event.target.value });
-        this.setState({ error: '' });
     }
 
     logIn(event) {
