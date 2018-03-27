@@ -1,22 +1,22 @@
 span {
     padding-right: 0.5em;
 }
-.my-account__login-box, .my-account__create-box {
+.login-box, .create-account-box {
     width: 25%;
     border: 1px solid;
     padding: 1em;
     font-size: 14px;
 }
-.my-account__create-box {
+.create-account-box {
     text-align: left;
 }
-.my-account__input-bar {
+.login-box__input-bar {
     width: 96%;
     margin-top: 1em;
     padding-left: 0.5em;
     font-style: italic;
 }
-.my-account__button, .my-account__password-link  {
+.login-box__button, .create-account-box__button .login-box__password-link  {
     margin: 3em 0em 2em;
     width: 100%;
     cursor: pointer;
