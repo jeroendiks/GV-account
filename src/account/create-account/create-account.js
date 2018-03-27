@@ -10,8 +10,10 @@ const CreateAccount = () => {
             <p className="create-account-box__text"><span>&#10003;</span>All orders and returns in one place</p>
             <p className="create-account-box__text"><span>&#10003;</span>Your shopping cart everywhere</p>
             <p className="create-account-box__text"><span>&#10003;</span>Create and save your wishlist</p>
-            <a href="#" className="button button--secondary create-account-box__button"
-               onClick={createAccount}>Create Account</a>
+            <button onClick={createAccount}
+                    className="button button--secondary create-account-box__button">
+                <a href="#">Create Account</a>
+            </button>
         </form>
     );
 };

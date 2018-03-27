@@ -4,16 +4,14 @@ body {
     font-family: sans-serif;
 }
 .my-account {
+    align-items: flex-start;
     display: flex;
     justify-content: space-around;
 }
-.create-account-box {
-    text-align: left;
- }
-.create-account-box__text > span {
-    padding-right: 0.5em;
+.error {
+    color: red;
 }
-.login-box, .create-account-box {
+.login-box {
     border: 1px solid;
     font-size: 14px;
     padding: 1em;
@@ -30,6 +28,21 @@ body {
     margin: 3em 0em 2em;
     width: 100%;
 }
-.error {
-    color: red;
+.create-account-box {
+    border: 1px solid;
+    font-size: 14px;
+    padding: 1em;
+    text-align: left;
+    width: 25%;
+ }
+.create-account-box__text > span {
+    padding-right: 0.5em;
+}
+.create-account-box__button {
+    margin: 1em 0em;
+    width: 100%;
+}
+.create-account-box__button > a {
+    text-decoration: none;
+    color: #000000;
 }
